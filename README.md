@@ -43,6 +43,8 @@ ng serve -o
 ```
 Important! Remember to install Mongo Compass in order to store your data https://www.mongodb.com/try/download/compass
 
+API Repo: https://github.com/HeyBaldur/BlogEm.API
+
 If you are interested please join our discord channel here 
 
 ![https://discord.gg/mWPWEWKd](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
