@@ -1,27 +1,48 @@
-# BlogUi
+# BlogEm Open-Source Project UI - Angular 15 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+### BlogEm is an application to create content very similar to Medium, with the small difference that it is developed to encourage other developers to learn in a practical way the flow of an application in real life.
 
-## Development server
+![image](https://user-images.githubusercontent.com/58003585/229857235-1f8581c7-bdac-4fdc-9298-df77f9b849a7.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Initially, the idea of this project is that developers can participate in a real (open source) project in which they can gain experience, learn from different methodologies, good practices, understand design patterns and among other topics that are normally covered in a project in real life.
+As such, the project is totally free, any developer who is part of the team has access to the code and it's totally free.
+As such, this product is licensed under the MIT license which reads:
 
-## Code scaffolding
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Requirements for the project
 
-## Build
+The technologies are a fundamental part of the project in order to work properly. Since this is a full-stack project we will cover backend, frontend and databases.
+### Backend stack:
+- C# https://dotnet.microsoft.com/en-us/learn/csharp 
+- ASP.NET Core 3.1 https://dotnet.microsoft.com/en-us/learn/aspnet 
+- AutoMapper: https://docs.automapper.org/en/stable/Getting-started.html  
+- Security https://owasp.org/www-project-api-security/ 
+- Microservices (minimum) https://learn.microsoft.com/en-us/dotnet/architecture/microservices/ 
+- RabbitMQ https://www.rabbitmq.com/getstarted.html 
+### Frontend stack:
+- JavaScript https://developer.mozilla.org/en-US/docs/Web/JavaScript 
+- TypeScript https://www.typescriptlang.org/ 
+- Angular https://angular.io/ 
+- RxJS https://rxjs.dev/ 
+- NgRx https://ngrx.io/ 
+- Angular material & cdk https://material.angular.io/ 
+- Bootstrap 5 (Not confirmed yet)
+### Databases:
+- MongoDb https://learn.mongodb.com/ 
+SQL Choose a folder where your UI and API will be. Both projects must be in the same folder. DO NOT create anything yet.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## How to run the API locally?
 
-## Running unit tests
+```
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+ng serve -o
+```
+Important! Remember to install Mongo Compass in order to store your data https://www.mongodb.com/try/download/compass
 
-## Running end-to-end tests
+If you are interested please join our discord channel here 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![https://discord.gg/mWPWEWKd](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
